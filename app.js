@@ -9,7 +9,7 @@ let ease = .05;
 window, addEventListener('resize', init)
 
 images.forEach((img, idx) => {
-    img.style.backgroundImage = `url(./images/${idx + 1}.jpeg)`;
+    img.style.backgroundImage = `url(./assets/images/${idx + 1}.jpeg)`;
 })
 
 function lerp(start, end, t){

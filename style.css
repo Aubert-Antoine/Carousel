@@ -50,3 +50,21 @@ main{
     background-position: center;
     /* filter: grayscale(25%); */
 }
+
+@font-face {
+    font-family: "font-1";
+    src: url(./assets/fonts/Bacode-Font/Bacode\ PERSONAL\ USE\ ONLY!.ttf);
+}
+
+h1{
+    font-family: "font-1";
+    color: sienna;
+    text-align: center;
+    font-size: 50px;
+}
+
+body{
+    font-family: "font-1";
+    color: sienna;
+    text-align: start;
+}
