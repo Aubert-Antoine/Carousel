@@ -7,5 +7,5 @@ let target = 0;
 let ease = .05;
 
 images.forEach((img, idx) => {
-    img.style.backgroundImage = `url(.images/${idx+1}.jpeg)`
+    img.style.backgroundImage = `url(./images/${idx + 1}.jpeg)`;
 })
