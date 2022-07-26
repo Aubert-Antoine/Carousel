@@ -4,6 +4,15 @@
     box-sizing: border-box;
 }
 
+body{
+    overscroll-behavior-y: none;
+    background-color: black;
+}
+
+body::-webkit-scrollbar {
+    display: none;
+}
+
 .slider-warper{
     position: fixed;
     top: 20%;
@@ -16,5 +25,30 @@
 }
 
 .slider{
-    pos
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 4000px;
+    display: flex;
+    will-change: transform;
+    background-color: black;
+}
+
+.slider-item{
+    position: relative;
+    flex: 1;
+    overflow: hidden;
+    filter: grayscale(100%);
+}
+
+
+.img-div{
+    position: relative;
+    left: 1%;
+    top: 2,5%;
+    width: 98%;
+    height: 95%;
+    background-size: cover;
+    background-position: center;
 }
