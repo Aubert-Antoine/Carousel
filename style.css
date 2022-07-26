@@ -1,6 +1,6 @@
 *{
-    margin: 0;
-    padding: 0;
+    margin: 5px;
+    padding: 0px;
     box-sizing: border-box;
 }
 
@@ -48,8 +48,10 @@ main{
     height: 100%;
     background-size: cover;
     background-position: center;
-    /* filter: grayscale(25%); */
+    /* filter: grayscale(30%); */
 }
+
+/* FONT PARAM */
 
 @font-face {
     font-family: "font-1";
@@ -58,29 +60,29 @@ main{
 
 h1{
     font-family: "font-1";
-    color: sienna;
+    color: #AB5825;
     text-align: center;
+    text-transform: capitalize;
     font-size: 50px;
 }
 
 body{
     font-family: "font-1";
-    color: sienna;
-    text-align: start;
+    color: #AB5825;
 }
 
-footer{
+/* TEXT PARAM */
+
+p.font{
     font-family: "font-1";
-    color: sienna;
-    /* text-align: end; */
-    text-align: center;
+    color: #AB5825;
 }
 
-main{
+p.verticale{
     font-family: "font-1";
-    color: sienna;
-    text-align: center;
-    /* writing-mode: vertical-rl; */
-    white-space: nowrap;
-    font-size: 10px;
+    color: #AB5825; 
+    text-align: right;
+    text-transform: capitalize;
+    writing-mode: vertical-rl;
+    font-size: 15x;
 }
