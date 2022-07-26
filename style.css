@@ -68,3 +68,19 @@ body{
     color: sienna;
     text-align: start;
 }
+
+footer{
+    font-family: "font-1";
+    color: sienna;
+    /* text-align: end; */
+    text-align: center;
+}
+
+main{
+    font-family: "font-1";
+    color: sienna;
+    text-align: center;
+    /* writing-mode: vertical-rl; */
+    white-space: nowrap;
+    font-size: 10px;
+}
