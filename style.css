@@ -51,6 +51,13 @@ main{
     /* filter: grayscale(30%); */
 }
 
+.container{     
+    height: 100%;
+    display: flex;
+    align-items:flex-end;
+    justify-content: right;
+}
+
 /* FONT PARAM */
 
 @font-face {
