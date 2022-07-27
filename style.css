@@ -58,6 +58,46 @@ main{
     justify-content: right;
 }
 
+/* BOUTTON */
+
+.buttons{
+    display: flex;
+    flex-direction: column;
+    object-position: 40px;
+    padding: 40px;
+}
+
+.btn{
+    text-decoration: none;
+    padding: 20px 50px;
+    font-size: 1.25rem;
+    position: relative;
+    margin: 32px;
+}
+
+.btn-1{
+    color: #AB5825;
+}
+
+.btn-1::after, .btn-1::before{
+    border: 3px solid #AB5825;
+    content: "";
+    position: absolute;
+    /* width: calc(100%-6px);
+    height: calc(100%-6px); */
+    /* left: 0;
+    bottom: 0; */
+    z-index: -1;
+    transition: transform 0.3s ease;
+}
+
+.btn-1:hover::after{
+    transform: translate(-5px, -5px);
+}
+
+.btn-1:hover::before{
+    transform: translate(5px, 5px);
+}
 /* FONT PARAM */
 
 @font-face {
@@ -71,6 +111,12 @@ h1{
     text-align: center;
     text-transform: capitalize;
     font-size: 50px;
+}
+
+h2{
+    font-family: "font-1";
+    color: #AB5825;
+    text-transform: capitalize;
 }
 
 body{
@@ -92,4 +138,22 @@ p.verticale{
     text-transform: capitalize;
     writing-mode: vertical-rl;
     font-size: 15x;
+}
+
+
+
+
+/* Contact */
+
+a.contact_link{
+    font-family: "font-1";
+    color: #AB5825;
+}
+
+.img_contact{
+    position: absolute;
+    height: 30%;
+    background-size: auto;
+    background-position: center;
+    filter: grayscale(0%);
 }
