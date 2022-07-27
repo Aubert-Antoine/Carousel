@@ -63,8 +63,6 @@ main{
 .buttons{
     display: flex;
     flex-direction: column;
-    object-position: 40px;
-    padding: 40px;
 }
 
 .btn{
@@ -152,7 +150,6 @@ a.contact_link{
 
 .img_contact{
     position: absolute;
-    height: 30%;
     background-size: auto;
     background-position: center;
     filter: grayscale(0%);
