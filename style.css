@@ -9,6 +9,10 @@ body{
     overscroll-behavior: none;
 }
 
+body::-webkit-scrollbar{
+    display: none;
+}
+
 main{
     position: fixed;
     top: 0;
@@ -149,8 +153,8 @@ a.contact_link{
 }
 
 .img_contact{
-    position: absolute;
-    background-size: auto;
-    background-position: center;
+    position: relative;
+    background-size:cover;
+    background-position: left;
     filter: grayscale(0%);
 }
