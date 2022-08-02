@@ -2,19 +2,14 @@
     margin: 5px;
     padding: 0px;
     box-sizing: border-box;
-}
-
-body{
     background-color:  black;
     overscroll-behavior: none;
+    color: #AB5825;
 }
 
 body::-webkit-scrollbar{
     display: none;
 }
-
-
-
 
 .container{     
     height: 100%;
@@ -79,3 +74,7 @@ h1{
     font-size: 50px;
 }
 
+.text::selection{
+    background-color : #AB5825;
+    color: black;
+}

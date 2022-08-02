@@ -7,10 +7,17 @@
 body{
     background-color:  black;
     overscroll-behavior: none;
+    font-family: "font-1";
+    color: #AB5825;
 }
 
 body::-webkit-scrollbar{
     display: none;
+}
+
+::selection{
+    background-color : #AB5825;
+    color: black;
 }
 
 main{
@@ -120,13 +127,6 @@ h2{
     color: #AB5825;
     text-transform: capitalize;
 }
-
-body{
-    font-family: "font-1";
-    color: #AB5825;
-}
-
-/* TEXT PARAM */
 
 p.font{
     font-family: "font-1";
